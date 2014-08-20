@@ -9,17 +9,17 @@ default: &default
   pool: 5
   timeout: 5000
 
-development:
-  <<: *default
-  database: ENV["dev_db"]
-  username: ENV["dev_un"]
-  password: ENV["dev_pw"]
-
 # development:
 #   <<: *default
-#   host: localhost
-#   username: user
-#   database: app-dev
+#   database: ENV["dev_db"]
+#   username: ENV["dev_un"]
+#   password: ENV["dev_pw"]
+
+development:
+  <<: *default
+  host: localhost
+  username: user
+  database: app-dev
 
 test:
   <<: *default
