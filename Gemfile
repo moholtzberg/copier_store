@@ -33,6 +33,8 @@ gem 'unicorn'
 
 gem 'rails_12factor', group: :production
 
+gem 'newrelic_rpm'
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
