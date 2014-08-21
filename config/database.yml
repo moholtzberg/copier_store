@@ -5,30 +5,33 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: postgresql
+  adapter: <%= ENV["db_engine"] %>
   pool: 5
   timeout: 5000
 
-# development:
-#   <<: *default
-#   database: ENV["dev_db"]
-#   username: ENV["dev_un"]
-#   password: ENV["dev_pw"]
-
 development:
   <<: *default
-  host: localhost
-  username: user
-  database: app-dev
+  host: <%= ENV["dev_host"] %>
+  database: <%= ENV["dev_db"] %>
+  username: <%= ENV["dev_un"] %>
+  password: <%= ENV["dev_pw"] %>
+
+# development:
+#   <<: *default
+#   host: localhost
+#   username: user
+#   database: app-dev
 
 test:
   <<: *default
+  host: ENV["prod_host"]
   database: ENV["test_db"]
   username: ENV["test_un"]
   password: ENV["test_pw"]
 
 production:
   <<: *default
+  host: ENV["prod_host"]
   database: ENV["prod_db"]
   username: ENV["prod_un"]
   password: ENV["prod_pw"]
