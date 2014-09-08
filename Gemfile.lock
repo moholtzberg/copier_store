@@ -1,15 +1,4 @@
 GIT
-  remote: git://github.com/spree/spree-multi-domain.git
-  revision: 13ed1ec2efd3692d20cc898a8606ea6f40d0f4db
-  branch: 2-3-stable
-  specs:
-    spree_multi_domain (1.0.0)
-      spree_api (~> 2.3.0)
-      spree_backend (~> 2.3.0)
-      spree_core (~> 2.3.0)
-      spree_frontend (~> 2.3.0)
-
-GIT
   remote: git://github.com/spree/spree.git
   revision: be82525c052bccea51187c8028e8ef589c9c2dde
   branch: 2-3-stable
@@ -75,7 +64,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_auth_devise.git
-  revision: d003e495fd83c41ef8378f67e21d947908a03e1f
+  revision: 0be5116695a740be8c16686dd512f9405264379d
   branch: 2-3-stable
   specs:
     spree_auth_devise (2.2.0)
@@ -151,7 +140,7 @@ GEM
     acts_as_list (0.3.0)
       activerecord (>= 3.0)
     arel (5.0.1.20140414130214)
-    awesome_nested_set (3.0.0)
+    awesome_nested_set (3.0.1)
       activerecord (>= 4.0.0, < 5)
     aws-sdk (1.27.0)
       json (~> 1.4)
@@ -190,7 +179,7 @@ GEM
     erubis (2.7.0)
     execjs (2.2.1)
     ffaker (1.25.0)
-    font-awesome-rails (4.1.0.0)
+    font-awesome-rails (4.2.0.0)
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.4)
       activerecord (>= 4.0.0)
@@ -218,7 +207,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     mini_portile (0.6.0)
-    minitest (5.4.0)
+    minitest (5.4.1)
     monetize (0.3.0)
       money (~> 6.1.0.beta1)
     money (6.1.1)
@@ -358,7 +347,6 @@ DEPENDENCIES
   spree_auth_devise!
   spree_gateway!
   spree_loyalty_points
-  spree_multi_domain!
   spree_print_invoice
   spree_related_products!
   spring

@@ -21,6 +21,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'paperclip'
+# gem 'rmagick' 
 gem 'aws-sdk'
 
 # Use ActiveModel has_secure_password
@@ -40,7 +41,7 @@ gem 'newrelic_rpm'
 
 gem "spree", :github => "spree/spree", :branch => "2-3-stable"
 gem "spree_auth_devise", :github => "spree/spree_auth_devise", :branch => "2-3-stable"
-gem "spree_multi_domain", :github => "spree/spree-multi-domain", :branch => "2-3-stable"
+# gem "spree_multi_domain", :github => "spree/spree-multi-domain", :branch => "2-3-stable"
 gem "spree_related_products", :github => "spree/spree_related_products", branch: "2-3-stable"
 gem "spree_active_shipping", :github => "spree/spree_active_shipping", branch: "2-3-stable"
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '2-3-stable'
