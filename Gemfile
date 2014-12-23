@@ -32,7 +32,7 @@ gem 'unicorn'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'rails_12factor', group: :production
+# gem 'rails_12factor', group: :production
 
 gem 'newrelic_rpm'
 
@@ -48,3 +48,6 @@ gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '2-3-stable'
 gem "spree_loyalty_points"
 
 gem 'spree_print_invoice'
+gem 'spree_env_ribbon', github: 'moholtzberg/spree_env_ribbon', branch: 'master'
+gem 'spree_sitemap', github: 'jdutil/spree_sitemap', branch: '2-3-stable'
+gem 'whenever', :require => false
