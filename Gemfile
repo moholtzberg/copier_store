@@ -56,7 +56,8 @@ gem 'spree_product_documents', github: 'moholtzberg/spree_product_documents', br
 gem 'spree_messages', github: 'moholtzberg/spree_messages', branch: 'master'
 gem 'spree_google_base', github: 'jumph4x/spree-google-base', branch: '3-0-rc'
 # gem 'spree_reviews', github: 'pebra/spree_reviews', branch: '3-0-stable'
-gem 'spree_copiersflorida_theme', path: '../spree_copiersflorida_theme'
+gem 'spree_advanced_admin_ui', github: 'moholtzberg/spree_advanced_admin_ui', branch: 'master'
+gem 'spree_copiersflorida_theme', github: 'moholtzberg/spree_copiersflorida_theme', branch: 'master'
 # gem "spree_multi_domain", :github => "surfdome/spree-multi-domain", :branch => "3-0-stable-sd"
 # gem "spree_loyalty_points"
 # gem 'spree-bank-transfer', require: 'spree_bank_transfer'

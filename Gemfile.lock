@@ -7,6 +7,22 @@ GIT
       spree (~> 3.0.0.rc1)
 
 GIT
+  remote: git://github.com/moholtzberg/spree_advanced_admin_ui.git
+  revision: a0c5da6e83cca824b022f484063038921b724b03
+  branch: master
+  specs:
+    spree_advanced_admin_ui (3.0.0)
+      spree_core (~> 3.0.0)
+
+GIT
+  remote: git://github.com/moholtzberg/spree_copiersflorida_theme.git
+  revision: 180d13d41f0640567b4ebd1ce38b2bfe6f092a2c
+  branch: master
+  specs:
+    spree_copiersflorida_theme (2.4.2)
+      spree_core (>= 2.4.2)
+
+GIT
   remote: git://github.com/moholtzberg/spree_messages.git
   revision: 7008cd333b2e2cfe720c72a859452093da1c98e1
   branch: master
@@ -182,12 +198,6 @@ GIT
   specs:
     spree_gateway (3.0.0.beta)
       spree_core (~> 3.0.0.beta)
-
-PATH
-  remote: ../spree_copiersflorida_theme
-  specs:
-    spree_copiersflorida_theme (2.4.2)
-      spree_core (>= 2.4.2)
 
 GEM
   remote: https://rubygems.org/
@@ -486,6 +496,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spree!
+  spree_advanced_admin_ui!
   spree_auth_devise!
   spree_comments!
   spree_copiersflorida_theme!
