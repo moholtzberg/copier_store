@@ -33,7 +33,7 @@ gem 'spree_gateway',     :github => 'spree/spree_gateway',     :branch => spree_
 gem 'spree_print_invoice', github: 'spree-contrib/spree_print_invoice', branch: '3-0-stable'
 
 gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap', branch: '3-0-stable'
-gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: '3-0-stable'
+# gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: '3-0-stable'
 # gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-0-stable'
 
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express', branch: 'master'
