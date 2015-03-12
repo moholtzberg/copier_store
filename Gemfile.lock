@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/moholtzberg/spree_advanced_admin_ui.git
-  revision: a0c5da6e83cca824b022f484063038921b724b03
+  revision: 97f7ede4280de65ef7a029cc20651e5e06dd3258
   branch: master
   specs:
     spree_advanced_admin_ui (3.0.0)
