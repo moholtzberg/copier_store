@@ -190,6 +190,14 @@ GIT
     spree_gateway (3.0.0.beta)
       spree_core (~> 3.0.0.beta)
 
+GIT
+  remote: git://github.com/yamldb/yaml_db.git
+  revision: cecfdfc8d6d3b2adbca26b9fc416d93a40dd2348
+  specs:
+    yaml_db (0.3.0)
+      rails (>= 3.0, < 4.3)
+      rake (>= 0.8.7)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -512,3 +520,4 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   unicorn
   whenever
+  yaml_db!
