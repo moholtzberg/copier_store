@@ -15,3 +15,12 @@ Disallow: /user_sessions
 Disallow: /user_registrations
 Disallow: /users
 Disallow: /account
+Sitemap: http://www.example.com/sitemap.xml.gz
+User-agent: *
+Disallow: /checkout
+Disallow: /cart
+Disallow: /orders
+Disallow: /user
+Disallow: /account
+Disallow: /api
+Disallow: /password

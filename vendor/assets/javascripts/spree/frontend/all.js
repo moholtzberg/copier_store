@@ -6,8 +6,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-
 //= require spree/frontend
 
 //= require_tree .
-//= require spree/frontend/spree_loyalty_points
+//= require spree/frontend/spree_copiersflorida_theme
