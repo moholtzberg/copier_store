@@ -24,6 +24,8 @@ gem 'rails_12factor', group: :production
 # gem 'newrelic_rpm'
 # gem 'debugger', group: [:development, :test]
 
+gem 'seed_dump', github: 'rroblak/seed_dump'
+
 spree_branch = '3-0-stable'
 
 gem "spree",             :github => "spree/spree",             :branch => spree_branch
