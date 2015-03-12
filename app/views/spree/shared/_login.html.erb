@@ -1,0 +1,35 @@
+<div class="row">
+	
+	<form accept-charset="UTF-8" action="/login" class="col-md-4 form-horizontal" id="new_spree_user" method="post">
+
+		<div style="display:none">
+			<input name="utf8" type="hidden" value="✓" />
+			<input name="authenticity_token" type="hidden" value="XySENL5vNmAUFvbtmwKamyb9hKbhVOsTGlPchekQzE8=" />
+			<input name="spree_user[remember_me]" type="hidden" value="0">
+		</div>
+
+		<div class="col-md-12">
+			<label>Email</label>
+			<input autofocus="autofocus" class="form-control" id="spree_user_email" name="spree_user[email]" tabindex="1" type="email" />
+		</div>
+
+		<div class="col-md-12">
+			<label>Password</label>
+			<input class="form-control" id="spree_user_password" name="spree_user[password]" tabindex="2" type="password" />
+		</div>
+		
+		<div class="col-md-6">
+			<div class="checkbox">
+				<label class="checkbox">
+					<input id="spree_user_remember_me" name="spree_user[remember_me]" tabindex="3" type="checkbox" value="1"/>&nbsp;Remember me
+				</label>
+			</div>
+		</div>
+		
+		<div class="col-md-6">
+			<input class="btn btn-primary btn-block pull-right" name="commit" tabindex="4" type="submit" value="Login" />
+		</div>
+
+	</form>
+	
+</div>

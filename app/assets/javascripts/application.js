@@ -10,7 +10,16 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require bootstrap-sass-official
+//= require sprangular
+//= require sprangular/host
+//= require sprangular/extraRoutes
+//= require_tree ./sprangular/controllers
+//= require_tree ./sprangular/services
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require bootstrap-sass-official
+//= require sprangular
+//= require sprangular/host
+//= require sprangular/extraRoutes
+//= require_tree ./sprangular/controllers
+//= require_tree ./sprangular/services

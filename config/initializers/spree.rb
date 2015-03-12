@@ -41,10 +41,14 @@ Spree.config do |config|
   puts "==            >>>>>>>>>>>>>>>> #{ENV['S3_BUCKET_NAME']}"
   puts "=============================================================="
   puts "=============================================================="
-
+  
+  config.company = true
+  config.checkout_zone = "North America"
+  config.default_country_id = 49
+  
 end
 
-Spree.user_class = "Spree::LegacyUser"
+Spree.user_class = "Spree::User"
 
 
 
